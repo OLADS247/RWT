@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Real Estate With Tofunmi</title>
+<link rel="icon" href="favicon.png">
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f8f9fa;
+    color:#333;
+    line-height:1.7;
+}
+
+/* NAVIGATION */
+
+nav{
+    background:#0B5D3B;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    color:white;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#D4AF37;
+}
+
+/* HERO */
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.6),
+    rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1560518883-ce09059eeffa');
+    background-size:cover;
+    background-position:center;
+    min-height:90vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:5px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:#D4AF37;
+    color:black;
+}
+
+.btn-primary:hover{
+    background:white;
+}
+
+.btn-secondary{
+    background:#0B5D3B;
+    color:white;
+}
+
+.btn-secondary:hover{
+    background:#145e45;
+}
+
+/* SECTION */
+
+section{
+    padding:80px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#0B5D3B;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#0B5D3B;
+    margin-bottom:15px;
+}
+
+/* WELCOME */
+
+.welcome{
+    background:white;
+}
+
+.welcome p{
+    margin-bottom:20px;
+}
+
+/* WHY US */
+
+.why-us{
+    background:#eef5f0;
+}
+
+/* CTA */
+
+.cta{
+    background:#0B5D3B;
+    color:white;
+    text-align:center;
+}
+
+.cta h2{
+    margin-bottom:20px;
+}
+
+.cta a{
+    display:inline-block;
+    margin-top:20px;
+    text-decoration:none;
+    background:#D4AF37;
+    color:black;
+    padding:15px 30px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+    background:#111;
+    color:white;
+    padding:60px 8%;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+footer h3{
+    color:#D4AF37;
+    margin-bottom:15px;
+}
+
+footer ul{
+    list-style:none;
+}
+
+footer ul li{
+    margin-bottom:10px;
+}
+
+footer ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.copyright{
+    border-top:1px solid #333;
+    margin-top:40px;
+    padding-top:20px;
+    text-align:center;
+}
+
+@media(max-width:768px){
+
+nav{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:2rem;
+}
+
+.buttons{
+    flex-direction:column;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+Real Estate With Tofunmi
+</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="listings.html">Listings</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+Build Wealth Through Smart Real Estate Investments
+</h1>
+
+<p>
+Verified Properties. Strategic Investments.
+Practical Real Estate Education.
+
+Your trusted partner for property acquisition,
+land banking, land flipping, cashflow properties,
+agricultural investments and long-term wealth creation.
+</p>
+
+<div class="buttons">
+
+<a href="listings.html" class="btn btn-primary">
+View Properties
+</a>
+
+<a href="https://wa.me/2349137420120"
+target="_blank"
+class="btn btn-secondary">
+Book Consultation
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="welcome">
+
+<h2 class="section-title">
+Welcome To Real Estate With Tofunmi
+</h2>
+
+<p>
+Whether you are looking to acquire your dream property,
+secure high-yield investments or build the knowledge
+needed to navigate the property market confidently,
+you are exactly where you need to be.
+</p>
+
+<p>
+At Real Estate With Tofunmi, we operate on two
+core pillars: Real Estate Wealth Education and
+Real Estate Wealth Empowerment Through Property Sales.
+</p>
+
+<p>
+We don't just sell properties. We connect our clients
+with verified opportunities that generate appreciation,
+ROI, cashflow and long-term wealth.
+</p>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+Our Core Pillars
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Premium Property Sales</h3>
+<p>
+Access verified lands, homes,
+commercial properties and agricultural
+investments carefully selected for
+security and profitability.
+</p>
+</div>
+
+<div class="card">
+<h3>Real Estate Education</h3>
+<p>
+Learn property investment,
+land banking, ROI strategies,
+market analysis and wealth-building
+principles that reduce risk.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="why-us">
+
+<h2 class="section-title">
+Why Choose Us?
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Verified Investments</h3>
+<p>
+Every opportunity undergoes thorough verification.
+</p>
+</div>
+
+<div class="card">
+<h3>Transparency</h3>
+<p>
+No hidden clauses. No guesswork.
+</p>
+</div>
+
+<div class="card">
+<h3>Wealth-Focused Strategy</h3>
+<p>
+Every recommendation is designed to help you build lasting wealth.
+</p>
+</div>
+
+<div class="card">
+<h3>Client-Centered Service</h3>
+<p>
+Your peace of mind and financial growth come first.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>
+Ready To Start Your Real Estate Journey?
+</h2>
+
+<p>
+Let's help you acquire valuable assets and build a legacy.
+</p>
+
+<a href="https://wa.me/2349137420120" target="_blank">
+Talk To Tofunmi Today
+</a>
+
+</section>
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+<h3>Real Estate With Tofunmi</h3>
+<p>
+We don't just sell properties;
+we build wealth, confidence and legacy.
+</p>
+</div>
+
+<div>
+<h3>Quick Links</h3>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="listings.html">Listings</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div>
+<h3>Services</h3>
+<ul>
+<li>Property Sales</li>
+<li>Land Banking</li>
+<li>Land Flipping</li>
+<li>Commercial Properties</li>
+<li>Agricultural Investments</li>
+<li>Real Estate Education</li>
+</ul>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>09137420120</p>
+<p>Available on WhatsApp</p>
+</div>
+
+</div>
+
+<div class="copyright">
+© 2026 Real Estate With Tofunmi. All Rights Reserved.
+</div>
+
+</footer>
+
+</body>
+</html>

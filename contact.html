@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact Us | Real Estate With Tofunmi</title>
+
+<meta name="description" content="Contact Real Estate With Tofunmi for property inquiries, real estate investment guidance and consultations.">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f8f9fa;
+color:#333;
+line-height:1.7;
+}
+
+nav{
+background:#0B5D3B;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+color:white;
+font-size:1.3rem;
+font-weight:bold;
+}
+
+.logo img{
+width:50px;
+height:50px;
+object-fit:contain;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:50vh;
+background:linear-gradient(rgba(0,0,0,.65),
+rgba(0,0,0,.65)),
+url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:700px;
+}
+
+section{
+padding:80px 8%;
+}
+
+.section-title{
+text-align:center;
+color:#0B5D3B;
+margin-bottom:40px;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:30px;
+}
+
+.contact-card{
+background:white;
+padding:35px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.contact-card h3{
+color:#0B5D3B;
+margin-bottom:20px;
+}
+
+.contact-info{
+margin-bottom:20px;
+}
+
+.contact-info strong{
+display:block;
+margin-bottom:5px;
+}
+
+.form-group{
+margin-bottom:20px;
+}
+
+input,
+textarea{
+width:100%;
+padding:14px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:1rem;
+}
+
+textarea{
+height:150px;
+resize:vertical;
+}
+
+button{
+background:#0B5D3B;
+color:white;
+border:none;
+padding:15px 25px;
+border-radius:5px;
+cursor:pointer;
+font-weight:bold;
+}
+
+button:hover{
+background:#08462c;
+}
+
+.whatsapp-btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 25px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+margin-top:15px;
+}
+
+.call-btn{
+display:inline-block;
+background:#D4AF37;
+color:black;
+padding:15px 25px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+margin-top:15px;
+margin-left:10px;
+}
+
+.faq{
+background:#eef5f0;
+}
+
+.faq-item{
+background:white;
+padding:25px;
+border-radius:10px;
+margin-bottom:20px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.faq-item h3{
+color:#0B5D3B;
+margin-bottom:10px;
+}
+
+footer{
+background:#111;
+color:white;
+padding:60px 8%;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+footer h3{
+color:#D4AF37;
+margin-bottom:15px;
+}
+
+footer ul{
+list-style:none;
+}
+
+footer ul li{
+margin-bottom:10px;
+}
+
+footer ul li a{
+color:white;
+text-decoration:none;
+}
+
+.copyright{
+margin-top:40px;
+padding-top:20px;
+border-top:1px solid #333;
+text-align:center;
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+text-decoration:none;
+z-index:999;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:2rem;
+}
+
+.call-btn{
+display:block;
+margin-left:0;
+margin-top:15px;
+text-align:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+<img src="images/logo.png" alt="Logo">
+<span>Real Estate With Tofunmi</span>
+</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="listings.html">Listings</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div>
+
+<h1>Let's Talk Real Estate</h1>
+
+<p>
+Have questions about a property, investment opportunity or real estate education? We are here to help.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+Get In Touch
+</h2>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<h3>Contact Information</h3>
+
+<div class="contact-info">
+<strong>Phone Number</strong>
+09137420120
+</div>
+
+<div class="contact-info">
+<strong>WhatsApp</strong>
+Available for inquiries and consultations.
+</div>
+
+<div class="contact-info">
+<strong>Business Hours</strong>
+Monday - Saturday<br>
+9:00 AM - 6:00 PM
+</div>
+
+<a href="https://wa.me/2349137420120" target="_blank" class="whatsapp-btn">
+Chat On WhatsApp
+</a>
+
+<a href="tel:09137420120" class="call-btn">
+Call Now
+</a>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Send Us A Message</h3>
+
+<form>
+
+<div class="form-group">
+<input type="text" placeholder="Your Name" required>
+</div>
+
+<div class="form-group">
+<input type="email" placeholder="Your Email Address" required>
+</div>
+
+<div class="form-group">
+<input type="tel" placeholder="Phone Number">
+</div>
+
+<div class="form-group">
+<textarea placeholder="How can we help you?" required></textarea>
+</div>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="faq">
+
+<h2 class="section-title">
+Frequently Asked Questions
+</h2>
+
+<div class="faq-item">
+<h3>How do I verify a property before purchase?</h3>
+<p>
+We guide our clients through proper verification procedures to ensure safe and secure transactions.
+</p>
+</div>
+
+<div class="faq-item">
+<h3>Do you offer real estate investment guidance?</h3>
+<p>
+Yes. We help investors understand opportunities, risks, ROI potential and market trends before investing.
+</p>
+</div>
+
+<div class="faq-item">
+<h3>Can I schedule a consultation?</h3>
+<p>
+Absolutely. You can book a consultation through WhatsApp or by calling us directly.
+</p>
+</div>
+
+</section>
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+<h3>Real Estate With Tofunmi</h3>
+<p>
+Building wealth through strategic property investments and practical real estate education.
+</p>
+</div>
+
+<div>
+<h3>Quick Links</h3>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="listings.html">Listings</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div>
+<h3>Services</h3>
+<ul>
+<li>Property Sales</li>
+<li>Land Banking</li>
+<li>Land Flipping</li>
+<li>Commercial Properties</li>
+<li>Agricultural Properties</li>
+<li>Real Estate Education</li>
+</ul>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>09137420120</p>
+<p>Available On WhatsApp</p>
+</div>
+
+</div>
+
+<div class="copyright">
+© 2026 Real Estate With Tofunmi. All Rights Reserved.
+</div>
+
+</footer>
+
+<a href="https://wa.me/2349137420120" target="_blank" class="whatsapp-float">
+💬
+</a>
+
+</body>
+</html>
